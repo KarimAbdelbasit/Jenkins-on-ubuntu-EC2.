@@ -1,5 +1,5 @@
 ## Jenkins-on-ubuntu-EC2.
-Install jenkins in ubuntu
+Install jenkins in ubuntu and   add inbound rules  custom TCP port 8080
 #### Open the websit:
 ```
 https://pkg.jenkins.io/
