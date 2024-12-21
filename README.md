@@ -22,6 +22,10 @@ sudo apt-get update
 ```
 sudo apt-get install fontconfig openjdk-17-jre
 ```
+The browser will ask you for your password to know that run the command :
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
 ```
 sudo apt-get install jenkins
 ```
