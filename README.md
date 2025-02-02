@@ -25,6 +25,10 @@ sudo apt-get install fontconfig openjdk-17-jre
 ```
 sudo apt-get install jenkins
 ```
+### To access Jenkins, go to:
+```
+ip server:8080
+```
 The browser will ask you for your password to know that run the command :
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
