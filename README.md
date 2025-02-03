@@ -6,14 +6,11 @@ https://pkg.jenkins.io/
 ```
 #### Then click on debain and write cmd:
 ```
-  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
-    https://pkg.jenkins.io/debian/jenkins.io-2023.key
+  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian/jenkins.io-2023.key
 ```
 #### Then add a Jenkins apt repository entry:
 ```
-echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
-    https://pkg.jenkins.io/debian binary/ | sudo tee \
-    /etc/apt/sources.list.d/jenkins.list > /dev/null
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]"  https://pkg.jenkins.io/debian binary/ | sudo tee  /etc/apt/sources.list.d/jenkins.list > /dev/null
 ```
 #### Update your local package index, then finally install Jenkins:
 ```
